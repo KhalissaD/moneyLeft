@@ -1,0 +1,9 @@
+MoneyLeft
+
+bankAccount: integer
+
+
+bankAccount <- 0
+while bankAccount-50 > 0 do
+	bankAccount <-bankAccount+1
+	write("Il vous reste (bankAccount) sur votre compte")
